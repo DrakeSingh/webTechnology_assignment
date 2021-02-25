@@ -49,7 +49,7 @@ p{
 }
 
 footer{
-	position: absolute;
+	position: sticky;
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -112,4 +112,9 @@ footer{
 .d_list dt{
 	font-weight: bold;
 	margin-top: 10px; 
+}
+
+.nav_seprator{
+	margin: 8px 0;
+    font-size: 18px;
 }
