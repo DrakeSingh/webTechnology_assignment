@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	background: #0F2027;
+	color: white;
+	padding: 30px;
+}
+header img{
+	width: 40%;
+	padding-left: 30px;
+	filter: brightness(130%);
+}
+header ul{
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+}
+header li{
+	list-style: none;
+	padding: 10px 15px;
+	transition: all 150ms ease-out;
+}
+header li:hover{
+	background: white;
+	color: black;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+main{
+	padding: 30px;
+}
+p{
+	margin: 20px 0; 
+	font-size: 18px;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #0F2027;
+	color: white;
+	padding: 30px;
+	text-align: right;
+}
+
+/*Practice Excercise 2 and 3*/
+.team h1, .about_us h1{
+	text-align: center;
+}
+.team div, .about_us{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.team div p, .about_us div{
+	text-align: center;
+	border-radius: 20px;
+	background: #0F2027;
+	color: white;
+	width: 400px;
+	padding: 20px;
+	margin-top: 15px;
+}
+.about_us div p{
+	margin-top: 15px;
+}
+
+/*Practice Excercise 5*/
+.gallery{
+	display: flex;
+}
+.gallery div{
+	width: 500px;
+	padding: 10px;
+}
+
+.gallery h1{
+	height: 100px;
+	text-align: center;
+}
+
+.gallery img{
+	width: 100%;
+}
+
+/*Practice Excercise 6 and 7*/
+.list ul, .list ol{
+	padding: 10px  50px;
+}
+.list li{
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+/*Practice Excercise 8*/
+.d_list dt{
+	font-weight: bold;
+	margin-top: 10px; 
+}
